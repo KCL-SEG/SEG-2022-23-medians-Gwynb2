@@ -9,11 +9,11 @@ while True:
         print("Some input could not be converted to a number!")
     else:
           numbers.sort()
-          medianform = numbers.size()+1
+          medianform = len(numbers)+1
           if medianform%2==0:
-             med = numbers[(numbers.size()/2)-1]
+             med = numbers[(medianform/2)-1]
           else:
-              med = (numbers[(numbers.size()/2)-1] + numbers[numbers.size()/2])/2
+              med = (numbers[len(numbers)/2)-1] + numbers[len(numbers)/2])/2
 
     break
 print(med)
