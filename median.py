@@ -8,12 +8,6 @@ while True:
     except ValueError:
         print("Some input could not be converted to a number!")
     else:
-          numbers.sort()
-          medianform = len(numbers)+1
-          if medianform%2==0:
-             med = numbers[(medianform/2)-1]
-          else:
-              med = (numbers[(len(numbers)/2)-1] + numbers[len(numbers)/2])/2
-
+          med = statistics(numbers)
     break
 print(med)
