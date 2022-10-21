@@ -8,8 +8,7 @@ while True:
     except ValueError:
         print("Some input could not be converted to a number!")
     else:
-        numbers.sort()
-        med = statistics.median(numbers)
-
+          numbers.sort()
+          med = 0
         break
 print(med)
