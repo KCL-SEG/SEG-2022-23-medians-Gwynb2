@@ -13,7 +13,7 @@ while True:
           if medianform%2==0:
              med = numbers[(numbers.size()/2)-1]
           else:
-              med = (numbers[(numbers.size()/2)-1] + numbers[numbers.size()/2])/2       
+              med = (numbers[(numbers.size()/2)-1] + numbers[numbers.size()/2])/2
 
-        break
+    break
 print(med)
