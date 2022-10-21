@@ -9,6 +9,10 @@ while True:
         print("Some input could not be converted to a number!")
     else:
           numbers.sort()
-          med = 0
+          if (numbers.size()+1)%2==0:
+             med = numbers[(numbers.size()/2)-1]
+          else:
+            med = (numbers[(numbers.size()/2)-1] + numbers[numbers.size()/2])/2       
+
         break
 print(med)
